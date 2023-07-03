@@ -1,0 +1,140 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(./8_asadas12221.jpg);
+    background-size: 200%;
+    background-position: center;
+    color: #666;
+}
+
+h1 {
+    text-align: center;
+    font-size: 44px;
+    font-weight: bolder;
+    color: rgb(151, 32, 151);
+    margin: 40px auto 0;
+
+}
+
+h2{
+    font-size: 21px;
+    color: gray;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 60px;
+    
+}
+
+form {
+    width: 400px;
+    margin: 90px auto;
+    padding: 20px 40px;
+    background-color: white;
+    font-size: 20px;
+    justify-content: space-between;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 0 20px gray;
+}
+
+label {
+    float: left;
+    font-size: 18px;
+}
+
+input, select{
+    padding: 10px;
+    float: right;
+    border-radius: 4px;
+    border: 1px #ccc solid;
+    background: #f9f9f9;
+    min-width: 90px;
+    max-width: 150px;
+}
+
+input:hover, select:hover {
+    border: 1px #999 solid;
+    background: #f9f9f9;
+}
+
+div{
+    width: 100%;
+    min-height: 39px;
+    margin-bottom: 11px;
+    line-height: 39px;
+
+}
+select {
+    margin-right: 19px;
+    width: 40px;
+}
+div span {
+    float: right;
+    display: block;
+    margin-left: 7px;
+    width: 12px;
+}
+div.final {
+    font-weight: bold;
+}
+.discount {
+    border-top: 1px dotted #ccc;
+    padding-top: 12px;
+    margin-top: 24px;
+
+}
+.final {
+    border-top: 2px solid #ccc;
+    border-bottom: 2px solid #999;
+    padding: 12px 0;
+    margin-top: 12px;
+    color: #111;
+}
+input,
+select {
+    background: #fff;
+    text-align: right;
+    font-size: 18px;
+    font-weight: normal;
+}
+.final input,
+.discount input {
+    border: 0;
+    background: #fff;
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+    width: 60px;
+    font-weight: bold;
+}
+form .buttons{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 30px auto;
+}
+
+form .btn{
+    background-color: rgb(151, 32, 151);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+form .btn:hover {
+    background-color: rgb(117, 16, 117);
+}
+form .btn2{
+    background-color: rgb(202, 146, 202);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+form .btn2:hover{
+    background-color: rgb(196, 110, 196);
+}
